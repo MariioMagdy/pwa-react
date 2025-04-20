@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+/* In your CSS file */
+.offline-fallback {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.offline-icon {
+  font-size: 64px;
+  margin-bottom: 1rem;
+}
+
+.offline-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.offline-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #4285f4;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.offline-link:hover {
+  background-color: #3367d6;
+}

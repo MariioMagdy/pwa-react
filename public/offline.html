@@ -1,0 +1,56 @@
+<!-- public/offline.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - PWA Demo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .offline-icon {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #4285f4;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+    button {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-icon">📶</div>
+  <h1>You're Offline</h1>
+  <p>The current page isn't available offline. Please check your internet connection.</p>
+  <p>You can still access the Home and About pages while offline.</p>
+  <button onclick="window.location.href='/'">Go to Home</button>
+</body>
+</html>
