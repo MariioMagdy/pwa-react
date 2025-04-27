@@ -69,3 +69,14 @@
 .offline-link:hover {
   background-color: #3367d6;
 }
+
+@media all and (display-mode: standalone) {
+  header{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer{
+    display: none;
+  }
+}
